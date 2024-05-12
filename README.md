@@ -1,15 +1,16 @@
 # VLSI-LAB-EXP-5
 SIMULATION AND IMPLEMENTATION OF FINITE STATE MACHINE
 
-AIM: 
+**AIM:** 
 
 To simulate and synthesis finite state machine using vivado 2023.1.
 
-**APPARATUS REQUIRED: **
+**APPARATUS REQUIRED:**
 
 VIVADO 2023.1.
 
-**PROCEDURE: **
+**PROCEDURE:**
+
 1. Open Vivado: Launch Xilinx Vivado software on your computer.
 
 2. Create a New Project: Click on "Create Project" from the welcome page or navigate through "File" > "Project" > "New".
@@ -32,8 +33,9 @@ Logic Diagram :
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-5/assets/6987778/34ec5d63-2b3b-4511-81ef-99f4572d5869)
 
+# CODE
+
 ```
-VERILOG CODE:
 
 module fsm(clk, rst, x, z);
 input clk, rst, x;
@@ -68,12 +70,12 @@ assign z=(present_state==S3);
 endmodule
 ```
 
-OUTPUT:
+# OUTPUT:
 
 ![324167135-860d60ee-ce28-49fb-a00f-7790225f6b84](https://github.com/KarthikeyanManickam/VLSI-LAB-EXP-5/assets/164841362/9687fed5-0f31-43c9-aff1-6c75235e0de2)
 
 
-RESULT:
+**RESULT:**
 
 Thus the simulation and synthesis finite state machine using VIVADO 2023.1 is verified successfully .
 
